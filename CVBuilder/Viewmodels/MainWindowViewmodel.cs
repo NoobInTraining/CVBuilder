@@ -12,9 +12,9 @@ namespace CVBuilder.Viewmodels
     {
 		#region [ Work ]
 
-		ObservableCollection<IWork> works;
+		ObservableCollection<Work> works;
 
-		public ObservableCollection<IWork> Work
+		public ObservableCollection<Work> Work
 		{
 			get
 			{

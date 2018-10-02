@@ -2,11 +2,11 @@
 
 namespace CVBuilder.Models
 {
-	class IWork : Event
+	class Work : Event
     {
 		#region [ City ]
 
-		string City { get; set; }
+		public string City { get; set; }
 
 		#endregion [ City ] 
 
@@ -15,7 +15,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// The name of the company wich employed you
 		/// </summary>
-		string Employer { get; set; }
+		public string Employer { get; set; }
 
 		#endregion [ Employer ] 
 
@@ -24,7 +24,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// Parttime/Fulltime work ect.
 		/// </summary>
-		string TimeModel { get; set; }
+		public string TimeModel { get; set; }
 
 		#endregion [ TimeModel ] 
 
@@ -33,7 +33,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// 
 		/// </summary>
-		string JobDescription { get; set; }
+		public string JobDescription { get; set; }
 
 		#endregion [ JobDescription ] 
 
@@ -42,7 +42,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// Why did the work contract get terminated
 		/// </summary>
-		string ReasonWhyItEnded { get; set; }
+		public string ReasonWhyItEnded { get; set; }
 
 		#endregion [ ReasonWhyItEnded ] 
 
@@ -51,7 +51,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// Any notes concerning work there
 		/// </summary>
-		IEnumerable<string> Notes { get; set; }
+		public IEnumerable<string> Notes { get; set; }
 
 		#endregion [ Notes ] 
 	}

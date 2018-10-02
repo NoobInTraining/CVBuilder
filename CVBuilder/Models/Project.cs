@@ -9,7 +9,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// The Programminglanguages used in the project
 		/// </summary>
-		IEnumerable<string> ProgrammingLanguages { get; set; }
+		public IEnumerable<string> ProgrammingLanguages { get; set; }
 
 		#endregion [ ProgrammingLanguages ] 
 
@@ -18,7 +18,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// 
 		/// </summary>
-		string Title { get; set; }
+		public string Title { get; set; }
 
 		#endregion [ Title ] 
 
@@ -27,7 +27,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// Notes concerning the Project
 		/// </summary>		
-		IEnumerable<string> Notes { get; set; }
+		public IEnumerable<string> Notes { get; set; }
 
 		#endregion [ Notes ]
 	}

@@ -2,16 +2,16 @@
 
 namespace CVBuilder.Models
 {
-	class Event
+	abstract class Event
     {
 		/// <summary>
 		/// The start month/year 
 		/// </summary>
-		DateTime From { get; set; }
+		public DateTime From { get; set; }
 
 		/// <summary>
 		/// When it ended
 		/// </summary>
-		DateTime To { get; set; }
+		public DateTime To { get; set; }
 	}
 }
