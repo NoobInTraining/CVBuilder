@@ -10,6 +10,16 @@ namespace CVBuilder.Viewmodels
 {
     class MainWindowViewmodel : CommonLibrary.Wpf.BaseNotifyPropertyChanged
     {
+		public MainWindowViewmodel()
+		{
+			ICV cV = new CV();
+			Work = new ObservableCollection<Work>(cV.Work);
+			Projects = new ObservableCollection<Project>(cV.Projects);
+			Education =  new ObservableCollection<Education>(cV.Education);
+
+		}
+
+
 		#region [ Work ]
 
 		ObservableCollection<Work> works;
