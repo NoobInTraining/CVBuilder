@@ -2,7 +2,7 @@
 
 namespace CVBuilder.Models
 {
-	interface IWork : IEvent
+	class IWork : Event
     {
 		#region [ City ]
 

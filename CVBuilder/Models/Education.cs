@@ -1,6 +1,6 @@
 ﻿namespace CVBuilder.Models
 {
-	interface IEducation : IEvent
+	class Education : Event
     {
 		/// <summary>
 		/// The type of the education e.g. studies, training ect.

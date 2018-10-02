@@ -2,7 +2,7 @@
 
 namespace CVBuilder.Models
 {
-	interface IEvent
+	class Event
     {
 		/// <summary>
 		/// The start month/year 

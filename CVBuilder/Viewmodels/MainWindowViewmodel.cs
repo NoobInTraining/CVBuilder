@@ -36,9 +36,9 @@ namespace CVBuilder.Viewmodels
 
 		#region [ Projects ]
 
-		ObservableCollection<IProject> projects;
+		ObservableCollection<Project> projects;
 
-		public ObservableCollection<IProject> Projects
+		public ObservableCollection<Project> Projects
 		{
 			get
 			{
@@ -60,9 +60,9 @@ namespace CVBuilder.Viewmodels
 
 		#region [ Education ]
 
-		ObservableCollection<IEducation> educations;
+		ObservableCollection<Education> educations;
 
-		public ObservableCollection<IEducation> Education
+		public ObservableCollection<Education> Education
 		{
 			get
 			{

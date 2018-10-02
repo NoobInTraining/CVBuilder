@@ -2,7 +2,7 @@
 
 namespace CVBuilder.Models
 {
-	interface IProject : IEvent
+	class Project : Event
     {
 		#region [ ProgrammingLanguages ]
 
