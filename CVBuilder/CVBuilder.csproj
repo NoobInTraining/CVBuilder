@@ -61,6 +61,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Models\CV.cs" />
     <Compile Include="Models\IEducation.cs" />
     <Compile Include="Models\IEvent.cs" />
     <Compile Include="Models\IProject.cs" />
