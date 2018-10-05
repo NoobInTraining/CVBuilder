@@ -64,6 +64,7 @@
     <Compile Include="Models\CV.cs" />
     <Compile Include="Models\Education.cs" />
     <Compile Include="Models\Event.cs" />
+    <Compile Include="Models\ExampleCV.cs" />
     <Compile Include="Models\ICV.cs" />
     <Compile Include="Models\IEducation.cs" />
     <Compile Include="Models\IEvent.cs" />

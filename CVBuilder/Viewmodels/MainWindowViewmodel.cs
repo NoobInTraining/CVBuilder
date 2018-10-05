@@ -12,7 +12,7 @@ namespace CVBuilder.Viewmodels
     {
 		public MainWindowViewmodel()
 		{
-			ICV cV = new CV();
+			ICV cV = new ExampleCV();
 			Work = new ObservableCollection<Work>(cV.Work);
 			Projects = new ObservableCollection<Project>(cV.Projects);
 			Education =  new ObservableCollection<Education>(cV.Education);

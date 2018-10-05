@@ -13,7 +13,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// 
 		/// </summary>		
-		IEnumerable<Work> Work { get; set; }
+		IEnumerable<Work> Work { get; }
 
 		#endregion [ Work ]
 
@@ -22,7 +22,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// 
 		/// </summary>		
-		IEnumerable<Education> Education { get; set; }
+		IEnumerable<Education> Education { get; }
 
 		#endregion [ Education ]
 
@@ -31,7 +31,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// 
 		/// </summary>		
-		IEnumerable<Project> Projects { get; set; }
+		IEnumerable<Project> Projects { get; }
 
 		#endregion [ Projects ]
 	}
