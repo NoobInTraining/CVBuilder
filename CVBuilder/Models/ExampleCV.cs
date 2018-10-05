@@ -33,8 +33,8 @@ namespace CVBuilder.Models
 			educations.Add(new Education { City = "ExampleCity", Country = "ExampleCountry", EducationType = "ExampleStudies", From = DateTime.Now, To = DateTime.Now, SchoolName = "ExampleSchool4" });
 		}
 
-		public IEnumerable<Work> Work { get => work; set => throw new NotImplementedException(); }
-		public IEnumerable<Education> Education { get => educations; set => throw new NotImplementedException(); }
-		public IEnumerable<Project> Projects { get => projects; set => throw new NotImplementedException(); }
+		public IEnumerable<Work> Work { get => work; }
+		public IEnumerable<Education> Education { get => educations; }
+		public IEnumerable<Project> Projects { get => projects; }
 	}
 }
