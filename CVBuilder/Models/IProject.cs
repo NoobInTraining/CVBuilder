@@ -2,14 +2,14 @@
 
 namespace CVBuilder.Models
 {
-	class Project : Event, IProject
-    {
+	interface IProject : IEvent
+	{
 		#region [ ProgrammingLanguages ]
 
 		/// <summary>
 		/// The Programminglanguages used in the project
 		/// </summary>
-		public IEnumerable<string> ProgrammingLanguages { get; set; }
+		IEnumerable<string> ProgrammingLanguages { get; set; }
 
 		#endregion [ ProgrammingLanguages ] 
 
@@ -18,7 +18,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// 
 		/// </summary>
-		public string Title { get; set; }
+		string Title { get; set; }
 
 		#endregion [ Title ] 
 
@@ -27,7 +27,7 @@ namespace CVBuilder.Models
 		/// <summary>
 		/// Notes concerning the Project
 		/// </summary>		
-		public IEnumerable<string> Notes { get; set; }
+		IEnumerable<string> Notes { get; set; }
 
 		#endregion [ Notes ]
 	}
